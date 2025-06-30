@@ -23,6 +23,14 @@ let null1: null = null;
 // undefined
 let undefined1: undefined = undefined;
 
-// 임시로 null 값을 넣고 싶을때
-// tsconfig.json 수정
-let numA: number = null;
+// 리터럴(값) 타입
+// 변수의 타입을 값으로 지정
+let numA: 10 = 10;
+// 리터럴 타입은 값으로 지정한 값 외에 값은 넣을 수 없음
+numA = 12;
+
+let strA: "hello" = "hello";
+strA = 'bye';
+
+let boolA: true = true;
+boolA = false;

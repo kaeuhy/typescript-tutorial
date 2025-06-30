@@ -6,8 +6,6 @@
     "outDir": "dist",
     // 모든 strict의 상위 옵션
     "strict": true,
-    // 임시로 null 값을 넣고 싶을때
-    "strictNullChecks": false,
     "moduleDetection": "force"
   },
   "include": ["src"]
