@@ -13,3 +13,14 @@ let doubleArr: number[][] = [
     [1, 2, 3],
     [4, 5],
 ];
+
+// 튜플
+// 길이와 타입이 고정된 배열
+let tup1: [number, number] = [1, 2];
+
+let tup2: [number, string, boolean] = [1, "2", true];
+
+const users: [string, number] = [
+    ["강은현", 1],
+    ["이아무개", 2],
+];
