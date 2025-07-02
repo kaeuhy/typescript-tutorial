@@ -1,18 +1,17 @@
-//object
+// ?를 통한 선택적 프로퍼티 정의
 let user: {
-    id: number;
+    id?: number;
     name: string;
 } = {
     id: 1,
     name: "강은현",
 };
 
-let dog: {
-    name: string;
-    color: string;
+// readonly를 통한 수정해선 안되는 프로퍼티 정의
+let config: {
+    readonly apiKey: string;
 } = {
-    name: "돌돌이",
-    color: "brown",
+    apiKey: "MY API KEY",
 };
 
-user.id;
+config.apiKey = "hacked";
