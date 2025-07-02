@@ -27,10 +27,10 @@ let undefined1: undefined = undefined;
 // 변수의 타입을 값으로 지정
 let numA: 10 = 10;
 // 리터럴 타입은 값으로 지정한 값 외에 값은 넣을 수 없음
-numA = 12;
+numA = 10;
 
 let strA: "hello" = "hello";
-strA = 'bye';
+strA = 'hello';
 
 let boolA: true = true;
-boolA = false;
+boolA = true;
