@@ -24,4 +24,5 @@ let countryNumberCodes = {
     UnitedState: 840,
     UnitedKingdom: 826,
 };
+console.log(countryNumberCodes["Korea"]);
 export {};
